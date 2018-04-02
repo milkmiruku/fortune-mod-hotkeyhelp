@@ -1,12 +1,14 @@
 C-b  Move backward one char    C-f  Move forward one char
 C-b  Move backward one word    A-f  Move forward one word
 C-a  Jump to line beginning    C-e  Jump to line end
-C-p  Move to previous line     C-n  Move to next line
+C-p  Previous line in history  C-n  Next line in history
 C-h  Delete backward           C-d  Delete forward
 %
 C-u  Cut line start to cursor  C-k  Cut cursor to line end
 C-w  Cut word before cursor    A-d  Cut word after cursor
 C-y  Paste last cut text       A-y  Paste second last cut text
 %
-C-c  Kill current process      C-l  Clear the screen
+C-c  SIGINT (kill)             C-d  Send EOF (exit)
+C-z  SIGSTOP (suspend)         fg   Resume suspened process
+C-\  SIGQUIT                   C-l  Clear the screen
 %
