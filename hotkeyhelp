@@ -10,5 +10,5 @@ C-y  Paste last cut text       A-y  Paste second last cut text
 %
 C-c  SIGINT (kill)             C-d  Send EOF (exit)
 C-z  SIGSTOP (suspend)         fg   Resume suspened process
-C-\  SIGQUIT                   C-l  Clear the screen
+C-\  SIGQUIT                   C-l  Clear (or redraw) screen
 %
