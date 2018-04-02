@@ -1,14 +1,24 @@
 C-b  Move backward one char    C-f  Move forward one char
-C-b  Move backward one word    A-f  Move forward one word
-C-a  Jump to line beginning    C-e  Jump to line end
-C-p  Previous line in history  C-n  Next line in history
+A-b  Move backward one word    A-f  Move forward one word
 C-h  Delete backward           C-d  Delete forward
+C-a  Jump to line beginning    C-e  Jump to line end
 %
-C-u  Cut line start to cursor  C-k  Cut cursor to line end
+C-u  Cut cursor to line start  C-k  Cut cursor to line end
 C-w  Cut word before cursor    A-d  Cut word after cursor
 C-y  Paste last cut text       A-y  Paste second last cut text
+A-C-y	Paste first argument of the previous command
+A-./_	Paste last argument of the previous command
 %
 C-c  SIGINT (kill)             C-d  Send EOF (exit)
 C-z  SIGSTOP (suspend)         fg   Resume suspened process
 C-\  SIGQUIT                   C-l  Clear (or redraw) screen
+S-PgUp  Scroll back a page     S-PgDown  Scroll down a page
+%
+C-p  Previous line in history  C-n  Next line in history
+C-r  Reverse history search    C-s  Search history
+C-j  End search                C-g  Abort search
+A-r  Revert changes made
+%
+A-*  Echo completions          A-?  Pager completions
+Tab  Completion
 %
