@@ -1,0 +1,13 @@
+pkgbase = fortune-mod-hotkeyhelp
+	pkgdesc = Hotkey reminder fortune cookie file
+	pkgver = 1
+	pkgrel = 3
+	url = https://github.com/milkmiruku/fortune-mod-hotkeyhelp
+	arch = any
+	groups = fortune-mods
+	license = custom:PublicDomain
+	depends = fortune-mod
+	source = hotkeyhelp
+
+pkgname = fortune-mod-hotkeyhelp
+
