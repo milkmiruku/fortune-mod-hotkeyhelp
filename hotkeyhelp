@@ -9,3 +9,4 @@ C-w  Cut word before cursor    A-d  Cut word after cursor
 C-y  Paste last cut text       A-y  Paste second last cut text
 %
 C-c  Kill current process      C-l  Clear the screen
+%
